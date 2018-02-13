@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.container {
+  background: #ffff;
+  color: #55555A;
+}
+.logo {
+  height: 80px;
+}
+.header {
+  background: #ffff;
+  color: #55555A;
+  padding: 20px;
+}
+.navigation {
+  display: flex;
+}
+.list-item {
+  padding: 20px;
+}
+
+.main-heading {
+  background: #124151;
+  background-image: url("../images/tablet.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 500px;
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.main-text {
+  color: #ffff;
+  font-family: 'Roboto Slab', serif;
+  font-size: 28px;
+  line-height: 1.5em;
+}
+.description {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  background: #ffff;
+  color: #55555A;
+  padding-top: 30px;
+  line-height: 1.5;
+}
+.main-description {
+  text-align: left;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 26%;
+}
+a {
+  text-decoration: none;
+  color: #55555A;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.first {
+  padding-bottom: 20px;
+}
+.feature-icon {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.col-sm-4-icon {
+  width: 100px;
+  height: 100px;
+  padding: 0 70px;
+}
